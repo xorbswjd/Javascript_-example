@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+button{
+    all: unset;
+    background-color: #4369b1;
+    color: white;
+    margin-left: 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul,li{
+    list-style:none;
+}
+.slide{
+    height:130px;
+    overflow:hidden;
+}
+.slide ul{
+    height:100%;
+}
+.slide li{
+    height:100%;
+}
+.slide li:nth-child(1){
+    background:red;
+}
+.slide li:nth-child(2){
+    background:orange;
+}
+.slide li:nth-child(3){
+    background:yellow;
+}
+.slide li:nth-child(4){
+    background:green;
+}
+.slide li:nth-child(5){
+    background:blue;
+}
+.slide li:nth-child(6){
+    background:indigo;
+}
+.slide li:nth-child(7){
+    background:purple;
+}
