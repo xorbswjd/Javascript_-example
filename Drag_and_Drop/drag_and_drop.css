@@ -1,0 +1,23 @@
+.field{
+    margin-top: 50px;
+}
+.dragtarget{
+    position:absolute;
+    width:100px;
+    height:100px;
+    background-color:red;
+
+}
+.dragInner{
+    width:inherit;
+    height:30px;
+    background-color:blue;
+    color:white;
+}
+.dropzone{
+    position:absolute;
+    width:500px;
+    height:500px;
+    background-color:silver;
+    margin-left: 300px;
+}
